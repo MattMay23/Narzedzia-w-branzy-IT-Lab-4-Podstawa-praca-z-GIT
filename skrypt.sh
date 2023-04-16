@@ -5,7 +5,6 @@ if [[ $1 == "--date" ]]; then
 else
     echo "Nieznana opcja"
 fi
-#!/bin/bash
 
 if ["$1" == "--logs" ]; then
 	if [ -z "$2" ]; then
@@ -24,4 +23,12 @@ else
 	echo "$(date)"
 fi
 if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
+fi
+if [ "$1" = "--logs"] || [ "$1" = "-l" ]; then
+fi
+if ["$1" = "--date" ] || ["$1" = "-d" ]; then
+fi
+if [ "$1" = "--interactive"] || [ "$1" = "-i"] then
+fi
+if [ "$1" = "--timestamp"] || [ "$1" = "-t"] then
 fi
