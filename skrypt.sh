@@ -23,5 +23,5 @@ if ["$1" == "--logs" ]; then
 else
 	echo "$(date)"
 fi
-if [ "$1" = "--help" ]; then
+if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
 fi
