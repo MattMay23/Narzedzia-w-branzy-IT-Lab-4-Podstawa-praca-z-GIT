@@ -5,7 +5,6 @@ if [[ $1 == "--date" ]]; then
 else
     echo "Nieznana opcja"
 fi
-#!/bin/bash
 
 if ["$1" == "--logs" ]; then
 	if [ -z "$2" ]; then
