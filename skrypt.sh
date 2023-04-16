@@ -28,3 +28,10 @@ if [ "$1" = "--logs"] || [ "$1" = "-l" ]; then
 fi
 if ["$1" = "--date" ] || ["$1" = "-d" ]; then
 fi
+if [ "$1" = "--init"] || [ "$1" = "-t"] then
+	git clone https://github.com/MattMay23/Narzedzia-w-branzy-IT-Lab-4-Podstawa-praca-z-GIT
+	
+	export PATH=$PATH:$(pwd)
+	
+	exit 0
+fi
